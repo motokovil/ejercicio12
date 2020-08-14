@@ -50,7 +50,7 @@ function App() {
   return (
     <div className="App">
       <h3>1. ¿Cuántos días tuvo el mes de febrero del año 1998?</h3>
-      {dinM(2020,7)}
+      {dinM(2020,1)}
 
       <h3>2. ¿Qué día fue el 2018-01-13?</h3>
       {moment([2018,0,13]).format('dddd')}
